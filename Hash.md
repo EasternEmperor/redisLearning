@@ -12,8 +12,8 @@
     - hget user1 name
 
 ### Hash操作注意事项
-1. hset
-2. hget
+1. hset/hmset
+2. hget/hmget
 3. hgetall: 可以获取**一个HashName的所有key-value**
     - hgetall user1
 4. hdel
